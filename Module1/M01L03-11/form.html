@@ -2,61 +2,63 @@
 <html>
 
 <body>
-    <form name="formulier" method="POST" data-netlify="true">
-        <p>
-            <label>Naam:<input type="text" name="name" /> </label>
-        </p>
-        <p>
-            <label>Email:<input type="email" name="email" /></label>
-        </p>
-        <p>
-            <label>Telefoonnummer:<input type="tel" name="telefoonnummer" /></label>
-        </p>
-        <p>
-            <label>Leeftijd:<input type="text" name="leeftijd" /></label>
-        </p>
-        <p>
-            <label>Geboortedatum:<input type="date" name="geboortedatum" /></label>
-        </p>
-        <p>Gender:</p>
-        <input type="radio" id="male" name="gender" value="male" />
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender" value="female" />
-        <label for="female">Female</label><br>
-        <input type="radio" id="other" name="gender" value="other" />
-        <label for="other">Other</label><br>
+    <main>
+        <form name="formulier" method="POST" data-netlify="true">
+            <p>
+                <label>Naam:<input type="text" name="name" id="name" required /> </label>
+            </p>
+            <p>
+                <label>Email:<input type="email" name="email" id="email" /></label>
+            </p>
+            <p>
+                <label>Telefoonnummer:<input type="tel" name="telefoonnummer" id="telefoonnummer" /></label>
+            </p>
+            <p>
+                <label>Leeftijd:<input type="number" name="leeftijd" id="leeftijd" min="1" max="200" step="5" /></label>
+            </p>
+            <p>
+                <label>Geboortedatum:<input type="date" name="geboortedatum" id="date" min="2020-01-10" /></label>
+            </p>
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other" />
+            <label for="other">Other</label><br>
 
 
-        <p>Favoriete cuisine:</p>
-        <input type="checkbox" name="cuisine" value="Frans">
-        <label for="Frans">Frans</label><br>
-        <input type="checkbox" name="cuisine" value="Italiaans">
-        <label for="Frans">Italiaans</label><br>
-        <input type="checkbox" name="cuisine" value="Spaans">
-        <label for="Frans">Spaans</label><br>
-        <input type="checkbox" name="cuisine" value="Arabisch">
-        <label for="Frans">Arabisch</label><br>
+            <p>Favoriete cuisine:</p>
+            <input type="checkbox" name="cuisine" value="Frans">
+            <label for="Frans">Frans</label><br>
+            <input type="checkbox" name="cuisine" value="Italiaans">
+            <label for="Frans">Italiaans</label><br>
+            <input type="checkbox" name="cuisine" value="Spaans">
+            <label for="Frans">Spaans</label><br>
+            <input type="checkbox" name="cuisine" value="Arabisch">
+            <label for="Frans">Arabisch</label><br>
 
-        <p>Favoriete kleur van short:</p>
-        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+            <p>Favoriete kleur van je schort:</p>
+            <input type="color" id="favcolor" name="favcolor">
 
-        <p>
-            <label>Biografie:<textarea name="biografie"></textarea></label>
-        </p>
+            <p>
+                <label>Biografie:<textarea name="biografie"></textarea></label>
+            </p>
 
-        <p>
-            <label>Upload je laatste recept:</label> <input type="file" name="recept" /> </p>
+            <p>
+                <label>Upload je laatste recept:</label> <input type="file" name="recept" id="file" /> </p>
 
-        <p>
-            <label>Url naar je recepten website</label> <input type="url" name="website" />
-        </p>
-        <p>
-            <button type="reset">Reset</button>
-        </p>
-        <p>
-            <button type="submit">Verzenden</button>
-        </p>
-    </form>
+            <p>
+                <label>Url naar je recepten website</label> <input type="url" name="url" id="url" />
+            </p>
+            <p>
+                <button type="reset">Reset</button>
+            </p>
+            <p>
+                <button type="submit">Verzenden</button>
+            </p>
+        </form>
+    </main>
 </body>
 
 </html>
