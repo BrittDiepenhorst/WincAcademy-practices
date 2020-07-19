@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+ 
+#navbar {
+    background-color: #ffffff;
+    color: #000000;
+    list-style: none;
+    margin: 0px;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0px;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-style: bold;
+    padding-right: 15px;
+}
+
+#navbar a:hover{
+    color:#B8860B;
+}
+
+.header {
+    text-align: center;
+    color: #ffffff;
+    background-image: url(../images/E8BF64B9-EBF2-4DFB-87EE-90E858CA107B_1_105_c.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0px 200px 0px;
+    margin: 0px 0px 100px 0px;
+}
+
+.container {
+    background-color: white;
+}
+
+.articlebox-1 {
+    background-color: #ffffff;
+    width: 80%;
+    align-content: center;
+    margin: auto;
+    border-bottom: 1px #D3D3D3 solid;
+    text-align: center;
+}
+
+.h3-article {
+    color: #B8860B;
+    font-size: 0.9em;
+    line-height: 0.5em;
+}
+
+.h2-article {
+    color: #000000;
+    font-size: 1.5em;
+    line-height: 0.5em;
+    font-weight: normal;
+    font-style: italic;
+    font-family: serif;
+}
+
+.p-article {
+    color: #a6a6a6;
+    font-size: 0.8em;
+    line-height: 0.5em;
+    font-style: italic;
+}
+
+.img-article {
+    padding-bottom: 2.0em;
+    width: 60%;
+    text-align: center;
+}
+
+.img-about {
+    width: 50%;
+}
+
+.aboutme{
+    text-align: center;
+}
+
+#footer {
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 24px;
+}
+.photogallery{
+text-align: center;
+}
+
+.photogallery ul li {
+    list-style: none;
+    display: inline;
+}
+
+.img-photogallery {
+    width: 40%;
+}
+
+@media (max-width: 600px) {
+    .header {
+        background-image: url(../images/E8BF64B9-EBF2-4DFB-87EE-90E858CA107B_1_105_c.jpeg);
+        padding: 50px;
+        margin: 0px 0px 50px 0px;
+    }
+
+    .img-article {
+        width: 80%;
+    }
+}
+
+@media (max-width: 850px) {
+    .img-photogallery {
+        width: 80%;
+    }
+}
+
+@media (min-width: 600px) {
+    .h2-article {
+        font-size: 1.2em;
+        line-height: 0.8em;
+    }
+    .h3-article {
+        font-size: 0.8em;
+        line-height: 0.5em;
+    }
+    .p-article {
+        font-size: 0.7em;
+        line-height: 0.5em;
+    }
+}
