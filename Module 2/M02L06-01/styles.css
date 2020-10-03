@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    column-gap: 15px;
+}
+
+.box {
+    background-color: #FFFFFF;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    border-bottom-color: #ebe8e8;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.person-1 {
+    width: 300px;
+    margin: 50px 0px 0px 50px;
+}
+
+.person-2 {
+    width: 300px;
+    margin: 50px 50px 0px 0px;
+}
+
+.avatar {
+    width: 40px;
+}
+
+h1 {
+    font-size: 16px;
+    margin: 5px 5px 10px 5px;
+}
+
+h4 {
+    font-size: 14px;
+    color: #8c8c8c;
+    margin: 5px 5px 10px 5px;
+}
+
+p {
+    font-size: 14px;
+    color: #4d4d4d;
+    margin: 5px 5px 10px 5px;
+}
+
+.button {
+    font-size: 0;
+    background-color: #FFFFFF;
+    border-top: 1px solid #d3d3d3;
+    padding: 10px 0px 10px 0px;
+    width: 280px;
+    margin: 0px;
+}
+
+.approve {
+    color: #00d15e;
+    background-color: #FFFFFF;
+    padding: 8px 45px 8px 45px;
+    border: 1px solid #00d15e;
+    border-right: 0px;
+    border-radius: 3px 0px 0px 3px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.decline {
+    color: #ff0000;
+    background-color: #FFFFFF;
+    padding: 8px 45px 8px 45px;
+    border: 1px solid #ff0000;
+    border-radius: 0px 3px 3px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+}
