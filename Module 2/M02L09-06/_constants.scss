@@ -1,0 +1,10 @@
+@mixin sametext {
+    text-align: justify;
+    line-height: 1.4em;
+    padding-bottom: 1em;
+}
+
+$primarycolor: #090b08;
+$bodybackground: #ecffe9;
+$backgroundsection: #97d279;
+$standardPadding: 20px;
