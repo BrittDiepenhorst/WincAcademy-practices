@@ -1,23 +1,23 @@
 // No arguments
 
-const paintWall = function () {
+const paintWall1 = function () {
     console.log("The wall has been painted red")
 };
 
-paintWall();
+paintWall1();
 
 // Single argument 
 
-const paintWallColorWithArgument = function (color) {
+const paintWall2 = function (color) {
     console.log("The wall has been painted " + color)
 };
 
-paintWallColorWithArgument("green");
+paintWall2("green");
 
 // Multiple arguments
 
-const paintWallWhichAndColor = function (wall, color) {
-    console.log(wall + " has been painted " + color)
+const paintWallWhichAndColor = function (whichWall, color) {
+    console.log(whichWall + " has been painted " + color)
 };
 
 paintWallWhichAndColor("The north wall", "orange");
