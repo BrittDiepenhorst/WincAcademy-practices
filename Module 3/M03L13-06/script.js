@@ -52,6 +52,7 @@ console.log("Energy levels eerste kat:", catBreeds[0].energy_level);
 
 console.log("Eerste temperament van de temperamenten van de tweede kat:", catBreeds[1].temperament[0]);
 
-console.log("Laatste temperament van de temperamenten van de derde kat:", catBreeds[2].temperament[4]);
+const lengthTemperamentsCatThree = catBreeds[2].temperament.length;
+console.log("Laatste temperament van de temperamenten van de derde kat:", catBreeds[2].temperament[lengthTemperamentsCatThree - 1]);
 
 console.log("Favoriete voedsel van de derde kat:", catBreeds[2].food.favourite_food);
