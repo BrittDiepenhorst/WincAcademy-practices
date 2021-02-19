@@ -11,11 +11,9 @@ alert("Hey " + name);
 numberToBeGuessed = Math.floor(Math.random() * (max - min) + min);
 console.log("Psst het nummer is: " + numberToBeGuessed);
 
-while (guess !== numberToBeGuessed) {
-    i <= 5
-    let i = 0;
-    alert("Je hebt " + i + "pogingen gedaan en nog " + 5 - i + " pogingen over.")
-    i++
+for (let i = 0; i <= 4; i++) {
+    guess !== numberToBeGuessed
+    alert("Je hebt " + i + " pogingen gedaan en nog " + (5 - i) + " pogingen over.")
     guess = parseInt(prompt("Voer een nummer in van 0 tot 25 om te beginnen met raden..."));
     alert("Je gok is: " + guess);
     if (guess > numberToBeGuessed) {
@@ -27,3 +25,5 @@ while (guess !== numberToBeGuessed) {
         alert("We sluiten de game af. Bedankt voor het spelen, tot de volgende keer " + name + " !");
     }
 }
+
+alert("We sluiten de game af. Bedankt voor het spelen, tot de volgende keer " + name + " !");
